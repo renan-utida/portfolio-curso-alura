@@ -3,12 +3,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
 }
 
 body {
-    height: 100vh;
-    box-sizing: border-box;
     background-color: black;
     color: #f6f6f6;
 }
@@ -17,11 +16,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5% 12%;
+    padding: 8% 10% 5% 10%;
+    gap: 36px;
 }
 
 .apresentacao-section {
-    width: 615px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -70,4 +70,19 @@ main{
     width: 378px;
     padding: 20px 0;
     text-align: center;
+    transition: background-color ease 0.3s;
+}
+
+.links-redes a:hover {
+    background-color: #272727;
+}
+
+footer {
+    background-color: #22D4DF;
+    color: black;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
