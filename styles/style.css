@@ -2,10 +2,15 @@
 
 :root {
     --cor-primaria: #000000;
+    /* --cor-primaria: #2C3639; */
     --cor-secundaria: #f6f6f6;
+    /* --cor-secundaria: #DCD7C9; */
     --cor-terciaria: #22d4fd;
+    /* --cor-terciaria: #A27B5C; */
     --cor-hover-menu: #1a969c;
+    /* --cor-hover-menu: #6d5039; */
     --cor-hover-botao: #272727;
+    /* --cor-hover-botao: #3f4e4f; */
 
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
@@ -116,5 +121,5 @@ footer {
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
 }
