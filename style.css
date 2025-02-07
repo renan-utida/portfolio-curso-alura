@@ -33,14 +33,14 @@ main{
     font-weight: 400;
 }
 
+.titulo-destaque {
+    color: #22D4DF;
+}
+
 .apresentacao-section p {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-}
-
-.titulo-destaque {
-    color: #22D4DF;
 }
 
 .links-redes {
@@ -51,12 +51,18 @@ main{
     justify-content: space-between;
 }
 
+.links-redes__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .links-redes a {
-    width: 280px;
-    color: black;
-    background-color: #22D4DF;
+    color: #f6f6f6;
+    border: 2px solid #22D4DF;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 20px 0;
     font-family: "Montserrat", sans-serif;
