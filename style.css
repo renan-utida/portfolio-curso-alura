@@ -17,7 +17,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 7% 12%;
+    margin: 5% 12%;
 }
 
 .apresentacao-section {
@@ -28,7 +28,7 @@ main{
 }
 
 .apresentacao-section h1 {
-    font-size: 36px;
+    font-size: 34px;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
 }
@@ -38,7 +38,7 @@ main{
 }
 
 .apresentacao-section p {
-    font-size: 24px;
+    font-size: 22px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
@@ -60,12 +60,14 @@ main{
 .links-redes a {
     color: #f6f6f6;
     border: 2px solid #22D4DF;
-    width: 378px;
-    text-align: center;
     border-radius: 8px;
-    font-size: 24px;
-    padding: 20px 0;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    padding: 20px 0;
+    text-align: center;
 }
-
