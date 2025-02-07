@@ -26,6 +26,11 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #22D4DF;
+    transition: color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+    color: #1a969c;
 }
 
 main{
