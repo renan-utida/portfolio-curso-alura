@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover-menu: #1a969c;
+    --cor-hover-botao: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +19,8 @@
 }
 
 body {
-    background-color: black;
-    color: #f6f6f6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -23,14 +34,14 @@ body {
 
 .cabecalho__menu__link {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 600;
-    color: #22D4DF;
+    color: var(--cor-terciaria);
     transition: color 0.3s ease;
 }
 
 .cabecalho__menu__link:hover {
-    color: #1a969c;
+    color: var(--cor-hover-menu);
 }
 
 main{
@@ -50,17 +61,17 @@ main{
 
 .apresentacao-section h1 {
     font-size: 34px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
 }
 
 .titulo-destaque {
-    color: #22D4DF;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao-section p {
     font-size: 22px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
 }
 
@@ -73,16 +84,16 @@ main{
 }
 
 .links-redes__subtitulo {
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
 }
 
 .links-redes a {
-    color: #f6f6f6;
-    border: 2px solid #22D4DF;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
     border-radius: 8px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria); 
     font-weight: 600;
     font-size: 22px;
     display: flex;
@@ -95,15 +106,15 @@ main{
 }
 
 .links-redes a:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover-botao);
 }
 
 footer {
-    background-color: #22D4DF;
-    color: black;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     padding: 24px;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
