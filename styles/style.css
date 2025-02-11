@@ -54,14 +54,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 3% 10%;
-    gap: 36px;
+    gap: 80px;
 }
 
 .apresentacao-section {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .apresentacao-section h1 {
@@ -78,6 +78,7 @@ body {
     font-size: 1.4rem;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
+    text-align: justify;
 }
 
 .links-redes {
@@ -177,6 +178,7 @@ footer {
 
     .apresentacao-section{
         width: auto;
+        gap: 40px;
     }
 
     .links-redes a{
